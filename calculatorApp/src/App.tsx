@@ -14,8 +14,12 @@ function App() {
 
   return (
     <div>
-      <Header />
-      <Theme />
+
+      <div className="header-flex">
+        <Header />
+        <Theme />
+      </div>
+
       <ResultsField />
 
       <div className="button-grid">

@@ -1,0 +1,19 @@
+button {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 0px rgba(151, 151, 151, 1);
+    color: #434A59;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 40px;
+    outline: none;
+    padding: 12px 14px;
+    /* width: 100px; */
+    text-align: center;
+}
+
+.button-grid .btn:nth-child(17),
+.button-grid .btn:nth-child(18) {
+    grid-column: span 2;
+
+}

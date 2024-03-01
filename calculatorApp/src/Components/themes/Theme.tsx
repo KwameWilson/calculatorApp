@@ -10,7 +10,7 @@ export const Theme = () => {
                     <p>3</p>
                 </div>
 
-                <div className="toggle-grid">
+                <div className="toggle-flex">
                     <label htmlFor="toggle">Theme</label>
                     <div className="toggle">
                         <input type="radio" name="toggle" id="toggle" />

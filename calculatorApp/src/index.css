@@ -16,3 +16,34 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.display {
+  padding: 40px 32px;
+  margin-bottom: 24px;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 24px;
+  background: #242D44;
+  padding: 32px;
+  border-radius: 10px;
+}
+
+.theme-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.toggle-flex {
+  display: flex;
+  justify-content: space-between;
+}
