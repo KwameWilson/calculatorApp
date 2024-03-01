@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -21,11 +22,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 32px;
+}
+
+.heading {
+  letter-spacing: -.53px;
 }
 
 .display {
+  border-radius: 10px;
+  font-size: 56px;
   padding: 40px 32px;
   margin-bottom: 24px;
+  height: 128px;
+  width: 540px;
 }
 
 .button-grid {
@@ -40,10 +50,46 @@ body {
 .theme-indicator {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  align-items: flex-end;
+  margin: 0 0 5px 90px;
+  width: 57px;
+  font-size: 12px;
 }
 
 .toggle-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.toggle-flex label:first-child {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.toggle {
+  margin-left: 28px;
+}
+
+.toggle input {
+  opacity: 0;
+  display: none;
+}
+
+.toggle label {
+  border-radius: 13px;
+  display: inline-block;
+  width: 71px;
+  height: 26px;
+  position: relative;
+}
+
+.toggle label:after {
+  /* background: #000; */
+  border-radius: 50%;
+  content: "";
+  height: 16px;
+  margin: 5px;
+  position: absolute;
+  width: 16px;
 }

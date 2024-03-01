@@ -9,6 +9,18 @@ body {
     color: #fff;
 }
 
+.toggle label {
+    background: #242D44;
+}
+
+.toggle label:after {
+    background: #D03F2F;
+}
+
+.display {
+    background: #181F33;
+}
+
 .button-grid .btn:nth-child(4),
 .button-grid .btn:nth-child(17),
 .button-grid .btn:nth-child(18) {
