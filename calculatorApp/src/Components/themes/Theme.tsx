@@ -5,9 +5,9 @@ export const Theme = () => {
         <>
             <div className="theme-wrapper">
                 <div className="theme-indicator">
-                    <p>1</p>
-                    <p>2</p>
-                    <p>3</p>
+                    <label className="mode1" htmlFor="toggle"><p>1</p></label>
+                    <label className="mode2" htmlFor="toggle"><p>2</p></label>
+                    <label className="mode3" htmlFor="toggle"><p>3</p></label>
                 </div>
 
                 <div className="toggle-flex">

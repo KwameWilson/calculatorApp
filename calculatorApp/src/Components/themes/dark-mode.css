@@ -13,12 +13,16 @@ body {
     background: #242D44;
 }
 
-.toggle label:after {
+.toggle label::before {
     background: #D03F2F;
 }
 
 .display {
     background: #181F33;
+}
+
+.button-grid {
+    background: #242D44;
 }
 
 .button-grid .btn:nth-child(4),

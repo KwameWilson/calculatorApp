@@ -1,0 +1,44 @@
+body {
+    background: #E6E6E6;
+    color: #36362C;
+}
+
+.heading,
+.theme-wrapper,
+.display {
+    color: #36362C;
+}
+
+.toggle label {
+    background: #D2CDCD;
+}
+
+.toggle label::before {
+    background: #D03F2F;
+}
+
+.display {
+    background: #EEEEEE;
+    color: #36362C;
+}
+
+.button-grid {
+    background: #D2CDCD;
+}
+
+.button-grid .btn:nth-child(4),
+.button-grid .btn:nth-child(17),
+.button-grid .btn:nth-child(18) {
+    color: #fff;
+}
+
+.button-grid .btn:nth-child(4),
+.button-grid .btn:nth-child(17) {
+    background: #378187;
+    box-shadow: 0px 5px 0px 0px rgb(27, 95, 101);
+}
+
+.button-grid .btn:nth-child(18) {
+    background: #C85402;
+    box-shadow: 0px 5px 0px 0px rgb(137, 57, 1);
+}
