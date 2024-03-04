@@ -29,6 +29,10 @@ body {
   letter-spacing: -.53px;
 }
 
+label[for='toggle'] {
+  cursor: pointer;
+}
+
 .display {
   border-radius: 10px;
   font-size: 56px;

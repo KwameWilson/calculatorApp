@@ -13,7 +13,7 @@ import { ResultsField } from './Components/resultsField/ResultsField.tsx'
 function App() {
 
   return (
-    <div>
+    <div className='light-mode'>
 
       <div className="header-flex">
         <Header />

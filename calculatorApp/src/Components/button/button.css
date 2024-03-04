@@ -12,6 +12,10 @@ button {
     text-align: center;
 }
 
+.btn:nth-child(18):hover {
+    
+}
+
 .button-grid .btn:nth-child(17),
 .button-grid .btn:nth-child(18) {
     grid-column: span 2;
