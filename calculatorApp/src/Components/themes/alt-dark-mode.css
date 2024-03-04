@@ -1,0 +1,57 @@
+.alt-dark-mode {
+    /* background: #E6E6E6; */
+    color: #FFE53D;
+}
+
+.heading,
+.theme-wrapper,
+.display,
+button {
+    color: #FFE53D;
+}
+
+.toggle label,
+.display {
+    background: #1E0936;
+}
+
+.toggle label::before {
+    background: #93FFF8;
+}
+
+.button-grid {
+    background: #1E0936;
+}
+
+button {
+    background: #331C4D;
+    box-shadow: 0px 5px 0px 0px rgb(188, 21, 244);
+}
+
+button:hover {
+    background: #6C34AC;
+}
+
+.button-grid .btn:nth-child(4),
+.button-grid .btn:nth-child(17) {
+    color: #fff;
+}
+
+.button-grid .btn:nth-child(4),
+.button-grid .btn:nth-child(17) {
+    background: #56077C;
+    box-shadow: 0px 5px 0px 0px rgb(188, 21, 244);
+}
+
+.button-grid .btn:nth-child(4):hover,
+.button-grid .btn:nth-child(17):hover {
+    background: #8631AF;
+    box-shadow: 0px 5px 0px 0px rgb(188, 21, 244);
+}
+
+
+.button-grid .btn:nth-child(18) {
+    background: #00DED0;
+    color: #1A2327;
+    box-shadow: 0px 5px 0px 0px #6cf9f2;
+}
